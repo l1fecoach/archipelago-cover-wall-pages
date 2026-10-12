@@ -180,3 +180,7 @@ body[data-page="room"] .page-heading{position:relative;margin:-30px -36px 20px;p
 @media(max-width:700px){.history-overview{grid-template-columns:repeat(3,minmax(0,1fr))}.history-stat{padding:10px 8px;min-height:75px}.history-stat strong{font-size:21px}.history-stat span{font-size:11px}.history-toolbar select{min-width:0;max-width:100%}.history-toolbar a{margin-left:0}.history-header h1{font-size:27px}.history-controls input{width:100%;min-width:0}.history-section-title{flex-direction:row;align-items:center}.history-section-title>span{white-space:normal}}
 
 .goal-complete{display:inline-block;vertical-align:middle;margin-left:8px;font:600 12px var(--font);padding:5px 9px;border-radius:6px;color:#8ee8bb;background:#2c9c6226}
+.list-summary{display:block;max-width:62ch;margin-top:4px;color:#aebbd1;font-size:11px;line-height:1.4}
+.description-source{display:inline-block;margin-top:10px;color:#c7b6ff;font-size:12px}.description-source:hover{text-decoration:underline}
+
+.card-summary{margin:0;color:#bec8dd;font-size:11px;line-height:1.45;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;min-height:2.9em}.cover-info{min-height:190px}.game-overview{margin:0 0 30px;padding-bottom:22px;border-bottom:1px solid var(--line)}.game-overview h2{margin:0 0 12px}.game-overview p{margin:0;line-height:1.65;color:#cbd3e5}.detail-summary{font-size:16px!important;line-height:1.55;color:#f1ebff!important}@media(max-width:540px){.cover-info{min-height:181px}.card-summary{font-size:10px}}
