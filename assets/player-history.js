@@ -3,6 +3,10 @@
   'use strict';
   const root = document.querySelector('#player-history');
   if (!root) return;
+  if (window.AP_STATIC_ONLY) {
+    root.innerHTML = '<div class="empty"><h1>Spielerfortschritt noch nicht verfügbar</h1><p>Die öffentliche GitHub-Pages-Version hat noch keinen Tracker-Dienst. Bibliothek und Spielseiten funktionieren bereits.</p><a class="btn primary" href="library.html">Cover Wall öffnen</a></div>';
+    return;
+  }
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const params = new URLSearchParams(location.search);
   const room = JSON.parse(localStorage.getItem('ap.room') || 'null');
