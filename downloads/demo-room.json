@@ -1,0 +1,25 @@
+{
+  "code": "FRIENDS-42",
+  "name": "The Weekly Shuffle",
+  "mode": "demo",
+  "players": [
+    {
+      "id": "you",
+      "name": "Lumi",
+      "game": "starfall",
+      "progress": 62,
+      "color": "#9b8cff",
+      "online": true
+    }
+  ],
+  "feed": [
+    {
+      "time": "14:32",
+      "from": "you",
+      "to": "you",
+      "item": "Crystal Key",
+      "type": "progression",
+      "place": "Sunken Library"
+    }
+  ]
+}

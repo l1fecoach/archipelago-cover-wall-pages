@@ -1,0 +1,10 @@
+ARCHIPELAGO COVER WALL — SESSION CHECKLIST
+
+[ ] Spiele und Clients mit den offiziellen Anleitungen vorbereiten.
+[ ] Bestehenden Raumcode von der Gruppe erhalten.
+[ ] Raumcode in der Companion-Ansicht eingeben.
+[ ] Spieler und Fortschritt prüfen.
+[ ] Gemeinsam erkunden und Funde teilen.
+
+Template-Demo: FRIENDS-42 lädt fiktive Daten.
+ERROR zeigt einen Fehler. EMPTY zeigt einen leeren Feed.
